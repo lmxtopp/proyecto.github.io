@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CETIS 156 Preparatoria</title>
+    <link rel="stylesheet" href="./css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./Imagenes/cetis156.jpeg" alt="CETIS 156 Logo">
+            <h1>CETIS 156 Preparatoria</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#cuestionario">Cuestionario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="bienvenida">
+        <div class="bienvenida-contenido">
+            <h2>Bienvenidos a CETIS 156</h2>
+            <p>Formando jóvenes con excelencia académica y valores. Tu futuro comienza aquí.</p>
+            <a href="#nosotros" class="btn">Conócenos</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="seccion">
+        <h2>¿Quiénes Somos?</h2>
+        <p>En CETIS 156 nos dedicamos a formar jóvenes con los conocimientos y habilidades necesarias para enfrentarse al futuro con éxito.</p>
+        <div class="mision-vision">
+            <div>
+                <h3>Misión</h3>
+                <p>Brindar educación integral, desarrollando competencias académicas y personales para la vida profesional.</p>
+            </div>
+            <div>
+                <h3>Visión</h3>
+                <p>Ser la institución educativa de educación media superior líder en la región, comprometida con la calidad y la innovación.</p>
+            </div>
+        </div>
+        <img src="./Imagenes/nosotros.jpg" alt="Nosotros" class="imagen-nosotros">
+    </section>
+
+    <section id="servicios" class="seccion">
+        <h2>Servicios que Ofrecemos</h2>
+        <div class="servicios">
+            <div class="servicio">
+                <img src="./Imagenes/aula.jpeg" alt="Aulas modernas">
+                <h3>Aulas Modernas</h3>
+                <p>Contamos con instalaciones de última generación para ofrecerte el mejor ambiente de aprendizaje.</p>
+            </div>
+            <div class="servicio">
+                <img src="./Imagenes/biblioteca.jpg" alt="Biblioteca">
+                <h3>Biblioteca</h3>
+                <p>Accede a una amplia colección de libros, recursos digitales y espacios de estudio para complementar tu aprendizaje.</p>
+            </div>
+            <div class="servicio">
+                <img src="./Imagenes/ActiExtra.jpg" alt="Actividades Extracurriculares">
+                <h3>Actividades Extracurriculares</h3>
+                <p>Fomentamos el desarrollo integral de nuestros estudiantes mediante actividades culturales, deportivas y sociales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Para más información, no dudes en ponerte en contacto con nosotros.</p>
+        <div class="informacion-contacto">
+            <p><strong>Dirección:</strong>  Del Parque s/n, Mesa De Otay, 22510 Tijuana, B.C.</p>
+            <p><strong>Teléfono:</strong>  664 623 1376</p>
+            <p><strong>Email:</strong> cetis156.dir@dgeti.sems.gob.mx</p>
+            <a href="https://www.facebook.com/CETis156PaginaOficial/?locale=es_LA" target="_blank" class="facebook-link">Síguenos en Facebook</a>
+        </div>
+    </section>
+
+    <section id="cuestionario" class="seccion">
+        <h2>Cuestionario Académico</h2>
+        <p>Responde las siguientes preguntas según tu grado escolar. ¡Queremos conocer más sobre ti!</p>
+        <form id="segundo-semestre">
+            <h3>Segundo Semestre</h3>
+            <div class="pregunta">
+                <label>1. ¿Qué especialidad te interesa más?</label><br>
+                <input type="radio" name="especialidad" value="electrónica"> Electrónica<br>
+                <input type="radio" name="especialidad" value="programación"> Programación<br>
+                <input type="radio" name="especialidad" value="ninguna"> Ninguna<br>
+            </div>
+            <div class="pregunta">
+                <label>2. ¿Cuál es tu materia favorita hasta ahora?</label><br>
+                <input type="radio" name="materia-favorita" value="matemáticas"> Matemáticas<br>
+                <input type="radio" name="materia-favorita" value="física"> Física<br>
+                <input type="radio" name="materia-favorita" value="otra"> Otra<br>
+            </div>
+        </form>
+
+        <form id="cuarto-semestre">
+            <h3>Cuarto Semestre</h3>
+            <div class="pregunta">
+                <label>1. ¿Qué te gustaría estudiar después de terminar la preparatoria?</label><br>
+                <input type="radio" name="estudio-post-prepa" value="universidad"> Universidad<br>
+                <input type="radio" name="estudio-post-prepa" value="trabajo"> Trabajo<br>
+                <input type="radio" name="estudio-post-prepa" value="otro"> Otro<br>
+            </div>
+            <div class="pregunta">
+                <label>2. ¿Qué área académica te llama más la atención?</label><br>
+                <input type="checkbox" name="area-interes" value="ingeniería"> Ingeniería<br>
+                <input type="checkbox" name="area-interes" value="ciencias-sociales"> Ciencias Sociales<br>
+                <input type="checkbox" name="area-interes" value="artes"> Artes<br>
+            </div>
+        </form>
+
+        <form id="sexto-semestre">
+            <h3>Sexto Semestre</h3>
+            <div class="pregunta">
+                <label>1. ¿Te sientes listo para graduarte?</label><br>
+                <input type="radio" name="listo-graduarte" value="sí"> Sí<br>
+                <input type="radio" name="listo-graduarte" value="no"> No<br>
+            </div>
+            <div class="pregunta">
+                <label>2. ¿Ya sabes qué carrera estudiarás?</label><br>
+                <input type="radio" name="carrera-definida" value="sí"> Sí<br>
+                <input type="radio" name="carrera-definida" value="no"> No<br>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar Respuestas</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CETIS 156 Preparatoria.</p>
+    </footer>
+</body>
+</html>
